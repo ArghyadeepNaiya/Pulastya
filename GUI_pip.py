@@ -6,14 +6,15 @@ def install():
     x=input('Enter the module name you wanna install: ')
     I(['install' ,x])
 
-"""____________________________________________________________
+
+
+"""
+____________________________________________________________
 Oi tuklu ekta GUI design kor niche ar Tate button er command 
 Ta oi install function ta call koris thhik achhe 
 Hello oi............
 Ar eita hobe ekta GUI pip installer chol suru 
 Kor kaj joldi plsss 
 🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏
-##################
-
-________________________________________________________________
+##################__________________________________________
 """
