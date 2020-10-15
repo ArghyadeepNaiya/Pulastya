@@ -1,5 +1,8 @@
 from pip import main as I
+from tkinter.filedialog import *
 from tkinter import *
+from tkinter.messagebox import *
+
 
 def install():     
     print('================AM PIP FOR ALL ====================')
