@@ -3,8 +3,9 @@ from tkinter import *
 
 def install():     
     print('================AM PIP FOR ALL ====================')
-    x=input('Enter the module name you wanna install: ')
+    x=module_name.get()
     I(['install' ,x])
+    showinfo("SUCCESSFUL","Installation successful")
 
 
 
@@ -18,7 +19,15 @@ Kor kaj joldi plsss
 🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏
 ____________________________________________________________
 """
+root=Tk()
+root.title('GUI PIP')
+root.geometry("700x700")
+module_name = Entry(root,font=('verdana',24))
+module_name.pack(side=TOP, padx=10)
+btn=Button(root, font=('verdana',24) , text='Install', command=install)
+btn.pack(side=TOP, pady=10)
 
+root.mainloop()
 
 
 
